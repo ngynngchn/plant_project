@@ -1,0 +1,147 @@
+* {
+  padding: 0;
+  margin: 0;
+  box-sizing: border-box;
+}
+
+@font-face {
+  font-family: "Open Sans";
+  src: url(../fonts/Open_Sans/static/OpenSans/OpenSans-Regular.ttf);
+}
+
+@font-face {
+  font-family: "Fredericka the Great";
+  src: url(../fonts/Fredericka_the_Great/FrederickatheGreat-Regular.ttf);
+}
+
+header {
+  background: url(../img/Lev3_2_css-einführung_box-model_img.jpeg) no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 100vh;
+  padding: 20px 100px;
+}
+
+.whiteText {
+  color: white;
+}
+
+header,
+main,
+footer {
+  font-family: "Open Sans";
+}
+
+header section {
+  text-align: center;
+  width: 500px;
+  margin: auto;
+  padding-top: 200px;
+}
+
+header nav a,
+footer article a,
+header section a,
+footer section a {
+  color: white;
+  text-decoration: none;
+  font-family: "Open Sans";
+}
+
+header nav a:hover {
+  color: #3a3b4a;
+}
+
+h1,
+h2,
+h3 {
+  font-family: "Fredericka the Great";
+  font-size: 30px;
+}
+
+header section h2 {
+  margin-top: 20px;
+}
+
+h2::after {
+  content: "JUNGLE";
+  display: block;
+}
+
+header section p {
+  margin: 20px;
+}
+
+header section a {
+  border: 1px solid #fff;
+  padding: 5px;
+}
+
+header section a:hover {
+  background-color: white;
+  color: #000;
+}
+
+nav {
+  text-align: end;
+  margin-top: 200px;
+}
+
+nav ul li {
+  margin: 10px;
+  list-style-type: none;
+}
+
+main section h3 {
+  font-size: 20px;
+  margin-bottom: 20px;
+}
+
+main section {
+  text-align: center;
+  margin: auto;
+  padding: 30px;
+  width: 500px;
+}
+
+main article {
+  border: 1px solid #000;
+  width: fit-content;
+  padding: 10px 30px;
+  text-align: center;
+  line-height: 24px;
+  margin: 0 auto 60px;
+}
+
+main article a {
+  color: #000;
+  text-decoration: none;
+}
+
+footer {
+  background-color: #3a3b4a;
+  width: 100%;
+}
+
+footer section {
+  text-align: start;
+  width: 700px;
+  padding: 20px;
+  margin: 0;
+}
+
+footer article {
+  text-align: end;
+  padding: 10px;
+}
+
+footer article a {
+  margin-left: 20px;
+}
+footer section a {
+  padding: 5px 30px;
+  border: 1px solid #fff;
+  display: block;
+  width: fit-content;
+  margin-top: 10px;
+}
